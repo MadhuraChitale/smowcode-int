@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class pbrlm2 {
     public static int puzzle(int H, int U, int S) {
         int difference = U - S;
-        int hr = (H - U) / difference;
-        return hr + 1;
+        int hour = (H - U) / difference;
+        return hour + 1;
     }
 
     public static void main(String[] args) {
